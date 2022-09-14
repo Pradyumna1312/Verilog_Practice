@@ -1,0 +1,114 @@
+$date
+	Wed Sep 14 12:05:19 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 8 ! Data [7:0] $end
+$var wire 8 " bits_data [7:0] $end
+$var reg 3 # bits_shift [2:0] $end
+$var reg 1 $ dir $end
+$scope module bs $end
+$var wire 8 % Data [7:0] $end
+$var wire 3 & bits_shift [2:0] $end
+$var wire 1 $ dir $end
+$var reg 8 ' bits_data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10001110 '
+b0 &
+b10001110 %
+1$
+b0 #
+b10001110 "
+b10001110 !
+$end
+#12
+b11101 "
+b11101 '
+b1 #
+b1 &
+#24
+b111010 "
+b111010 '
+b10 #
+b10 &
+#36
+b1110100 "
+b1110100 '
+b11 #
+b11 &
+#48
+b11101000 "
+b11101000 '
+b100 #
+b100 &
+#60
+b11010001 "
+b11010001 '
+b101 #
+b101 &
+#72
+b10100011 "
+b10100011 '
+b110 #
+b110 &
+#84
+b1000111 "
+b1000111 '
+b111 #
+b111 &
+#96
+b10001110 "
+b10001110 '
+b0 #
+b0 &
+0$
+#108
+b1000111 "
+b1000111 '
+b1 #
+b1 &
+#120
+b10100011 "
+b10100011 '
+b10 #
+b10 &
+#132
+b11010001 "
+b11010001 '
+b11 #
+b11 &
+#144
+b11101000 "
+b11101000 '
+b100 #
+b100 &
+#156
+b1110100 "
+b1110100 '
+b101 #
+b101 &
+#168
+b111010 "
+b111010 '
+b110 #
+b110 &
+#180
+b11101 "
+b11101 '
+b111 #
+b111 &
+#192
+b10001110 "
+b10001110 '
+b0 #
+b0 &
+1$
