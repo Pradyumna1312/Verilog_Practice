@@ -1,0 +1,5 @@
+read_verilog Comparator.v
+show -format dot -prefix ./Outputs/Comp-before_Synth
+synth
+show -format dot -prefix ./Outputs/Comp_RTL
+exit
