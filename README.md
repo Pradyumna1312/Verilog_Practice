@@ -8,6 +8,5 @@ The aim of this Repo is to help in understanding and developing Digital Designs 
         3. Yosys : <https://yosyshq.net/yosys/download.html>
         4. OpenTimer : <https://github.com/OpenTimer/OpenTimer>
         5. Glade : <https://peardrop.co.uk/downloads/>
-        6. Cocotb (Python TestBenches) : <https://github.com/cocotb/cocotb>
         
         
