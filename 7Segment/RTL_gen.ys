@@ -1,0 +1,10 @@
+if [$# -lt 2];
+echo "Expecting 2 Arguments - file_name.v .\output\address"
+exit 1
+if [$# -gt 2]
+echo "Got $# arguments which are more than 2"
+exit 3
+read_verilog $1
+synth
+show -format dot -prefix $2
+exit 2
